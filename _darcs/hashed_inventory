@@ -1,0 +1,283 @@
+pristine:9482d6f55be9f8ca89f42f7b9e8d6b6ee7e3039fb1f1fa55b2e1a1d7e1583171
+Starting with inventory:
+0000008014-81abaf691504f55027d92c049869b33c9b6d80b418ac53981b14b586bc59c90d
+[TAG 0.8.2
+John Meacham <john@repetae.net>**20140602180626
+ Ignore-this: 358fa85b89ee4c73f47f7b85e3647a6a
+] 
+hash: 0000005155-71252eb7b7b7bdc3e71efcca46d11d2f64cfeef3055fc12a102357b02fdefe54
+[add some reference header to the repository
+John Meacham <john@repetae.net>**20140603003350
+ Ignore-this: 2926b1538e8abace7f040b2030d4751a
+] 
+hash: 0000036144-3d014b3438233bbcac6b4de8385a6b359642356539f1d0032eb55b4dee8c9bd3
+[add -mwin64 option for compiling a 64 bit windows program
+John Meacham <john@repetae.net>**20140603004010
+ Ignore-this: afe051fa40709c506101cc7c09a03c65
+] 
+hash: 0000000802-82fa22ad90de5cd1a1903b6ce5ca1aed7964ab9e864b96fcc3e93c00d9d674d2
+[remove old .cabal handling code
+John Meacham <john@repetae.net>**20140603044530
+ Ignore-this: 61ecf8e31c75206dee4d896d1b64e364
+] 
+hash: 0000006523-bef75b8eabe0b3259596e858729d78f83fce422d168c4584daaab706f9b44111
+[improve manual
+John Meacham <john@repetae.net>**20140603045456
+ Ignore-this: 3f1097c13515fb8b3eec530903cbeae
+] 
+hash: 0000013784-6bcaab2735ea5ad305fc3c9863bbd95c8a1dc29185d54b64ac2b678a5ae05f0d
+[improve documentatoin, add more pragma info
+John Meacham <john@repetae.net>**20140603094724
+ Ignore-this: bb7a0676b6e75bd5c7f2fe36f7c94640
+] 
+hash: 0000013041-a8e3e640b70822a77378b44d6ddb64e231fb94fc9b4a022b4dfa3ba2ee4bff7d
+[add top level kind signatures, rearrange options, allow --with to load a library context
+John Meacham <john@repetae.net>**20140603111150
+ Ignore-this: cf3d21f6ae205ac8e64d53ab2298c48a
+] 
+hash: 0000057386-b7a13745335f0a2af0c33f2f60114cf55f952df7d444925f992ce1c04a3c62d2
+[improve the manual significantly.
+John Meacham <john@repetae.net>**20140604004216
+ Ignore-this: 920d5d93a89f2ab540d15c271b278240
+] 
+hash: 0000022845-d3f4a9d815ae8974f0e284369a238224704efdeb4bcb65c1827f63243ef553b4
+[improve publishing
+John Meacham <john@repetae.net>**20140604015559
+ Ignore-this: 655e19f3e5eab3292f04e831d1a66f07
+] 
+hash: 0000001567-0a7230abccabe486a0455a5f77f94e004ec0274777d1575faf8d6b3be0478ecf
+[add record inference extension information
+John Meacham <john@repetae.net>**20140604053714
+ Ignore-this: eea402315485a45a4d170247ea380c89
+] 
+hash: 0000002992-440e2575fd866ef1125a2a7a6f18d70314ae328a1628e67dc600a77d47aa546a
+[add tests just to check haskell98 and haskell2010 are exporting all the right modules.
+John Meacham <john@repetae.net>**20140604074508
+ Ignore-this: dd5e786837052bbf8c75c984792f22ad
+] 
+hash: 0000001670-2a68434e654c9a1de2d65c7b4477d1c56a2f658f2e65fd04529eba9e6e59d5fd
+[clean up selftest some
+John Meacham <john@repetae.net>**20140604090145
+ Ignore-this: b750b6a607a73a320761dc427bb9ffd6
+] 
+hash: 0000011713-a46bee613071ff2e9c12697324191a0c1a13bb7b43eba2a0ad8885036bdb7b7a
+[redo how extension options are handled. understand ghc style -X options
+John Meacham <john@repetae.net>**20140604121442
+ Ignore-this: 3f6357d18798211b9dd9c2ffc1d1d3c8
+] 
+hash: 0000022960-32e0a2aa5f063b0ec2664bdcd5412f695b19406bc114e0f9ab43722db4debf45
+[remove dependency on fgl packages
+John Meacham <john@repetae.net>**20140604145522
+ Ignore-this: a7811befc5130882b4a6390b4213583d
+] 
+hash: 0000009428-576530807a8fdcc2a4fb703f3cb128c741fbeca8d35ba1abd877c916a7ea118f
+[clean out old decl depends code
+John Meacham <john@repetae.net>**20140604163243
+ Ignore-this: 5e9ab2a496c546b639dcc50d4490d0ca
+] 
+hash: 0000021463-3ce4cee6ba020811099e2a5f77e5b8b5391fe5c5267ad946aa30620e6363685d
+[remove toName conversions, add generation of jhc/ext_defs.h
+John Meacham <john@repetae.net>**20140605052000
+ Ignore-this: ff4a182927c15a1948793080d4d5e6be
+] 
+hash: 0000011399-203f8786213a3919e1459827dd0323f8d29381871cf1f30e9c3fbba90218add3
+[add HOT and COLD pragmas, update documentation
+John Meacham <john@repetae.net>**20140605053934
+ Ignore-this: dca03821c336b54f33c5266ba52deb0d
+] 
+hash: 0000004538-83160e90a430f1bfacf04b53b1d503813914e92184b35cb2355d33db32141cb4
+[add new deriving mechanism that builds the AST directly
+John Meacham <john@repetae.net>**20140605132011
+ Ignore-this: c45583092721faaea6482f387cd1340f
+] 
+hash: 0000008294-ed5d305c28e7474389bc9e48bfa2ffcbeb49c6c9f2881854fa3d83f6d41189e7
+[collect derivations together into a list
+John Meacham <john@repetae.net>**20140606010702
+ Ignore-this: ccb8e9910dd382f3adf06249b37539c
+] 
+hash: 0000012621-f9829aac1f42f8e20b0e0a381ec53dfffb2ce87c06018b682278f33b1002f00b
+[add deriving Ix and Enum, make actual error messages when deriving fails
+John Meacham <john@repetae.net>**20140606033717
+ Ignore-this: f9ad8d267e5db58e19cc0b72313ff4f0
+] 
+hash: 0000009898-73bfde6e994e102702a328383ede791cb1c0fe08f01cfab199e5608eba227420
+[add typeclass document
+John Meacham <john@repetae.net>**20140606053339
+ Ignore-this: bbf8a0bd7c07cfd6321514281cefa4cb
+] 
+hash: 0000002572-5a050cc03fadac909c768a20b986bb118c47237dd1659dc7fb8ad46bef12192c
+[add deriving Read
+John Meacham <john@repetae.net>**20140606233805
+ Ignore-this: 1fb3e2597da20b156f102cd85da0047c
+] 
+hash: 0000028427-ec2ce6ec68d17f5fb5379dbea7140c39a067cf7e84c5a1b98aa2fa9a5f77a56e
+[derive Functor, Foldable, and Traverse
+John Meacham <john@repetae.net>**20140607044544
+ Ignore-this: 5b9e4e65c2371cdccdec4906ddfb564c
+] 
+hash: 0000018209-2d058c100ef44600614d8576d85b58da70ff5f054c886f9a8b8449b3a70b415c
+[add LambdaCase extension
+John Meacham <john@repetae.net>**20140608041319
+ Ignore-this: f9dd5cc95608fda42f474c5b50827a42
+] 
+hash: 0000004797-70b204720f6f304a7b27c55541cddfe1959a125f349fdfac9714239d92407f49
+[remove old DrIFT based deriving code. utiize LambdaCase in list and do desugarings to simplify them.
+John Meacham <john@repetae.net>**20140608050936
+ Ignore-this: df422ea53c295e9a05838e831190d043
+] 
+hash: 0000033906-90e9b5882e561f3701908c37bf881b598a2cb5e2c90c8c28fe6f2c9de2072428
+[add methods to applicative
+John Meacham <john@repetae.net>**20140608102707
+ Ignore-this: 7b79da303dea977a5af075eb04895553
+] 
+hash: 0000002113-0d9d3b52bfa9e2888969dc6f02a9fbeb2bcbb5a54026af0bf6ba98e5b6d41387
+[typecheck 'do' blocks directly. add partial application of (->) to boxy matching
+John Meacham <john@repetae.net>**20140608103012
+ Ignore-this: 697dc2b544b6a717b0f95240ba4de6a2
+] 
+hash: 0000012371-a5aebc051401bc7506041bda668aacdcaa66b3ab75605b6b74a36082c647f157
+[greatly improve type checking error messages.
+John Meacham <john@repetae.net>**20140608164244
+ Ignore-this: cea2afea376b31916fcc98bea1354fdb
+] 
+hash: 0000040788-533ee6beccde67e0a4bc149824b265b1f83c970cf6bd94acdeee7a48d235fc41
+[improve error messages some more
+John Meacham <john@repetae.net>**20140609021208
+ Ignore-this: ab084930b842366a9cd0c74957f0e5ed
+] 
+hash: 0000039235-a71e6d9d8a2a57abe42fe4941e95dc10be9b9cb39eb657acf041f101040e51ec
+[improve help messages some
+John Meacham <john@repetae.net>**20140609134231
+ Ignore-this: 32039f114791c8d3b8bd703c7b8ba0e5
+] 
+hash: 0000006262-b2aae0a761136092f4995f1cf9b6c44e57be30d59eee09907771ff701553b327
+[make '-p' handling consistent. handle empty 'options' field in library desc files, when an unknown module is imported, suggest packages to include
+John Meacham <john@repetae.net>**20140609153806
+ Ignore-this: 8f4c7f3e932ac3741a8da8eebd40ba8b
+] 
+hash: 0000009780-689f1cd6461f6e8d0a553fafc4f7a2787bcea85e9b30e69ef2c15c75f71f8a3f
+[add wl-pprint to ext libs
+John Meacham <john@repetae.net>**20140610032602
+ Ignore-this: d58ee05c18db540cc718445c76d24422
+] 
+hash: 0000000764-5adffaba7a3c259a16903bdac4ec05a3c388b2ee398f1e450e89b2af3b0eb33f
+[simplify post, fix bug parsing funbindings of the form ((a + b) c d)
+John Meacham <john@repetae.net>**20140610032907
+ Ignore-this: 7ae007d0274f02579a47a7d63184b661
+] 
+hash: 0000006920-d93cefe0e26f96e9457ca5b5abca70b7c2fbafcd91c041fb66a4ed22f5057470
+[fix bug in lambda desugaring of const failable patterns
+John Meacham <john@repetae.net>**20140610034601
+ Ignore-this: 1a72ba419ed41167a164f60e2d58d8dd
+] 
+hash: 0000002000-52311f1e2393c300b103baa3fc4931bb65f10fbecea71193d52db53c9d4dd498
+[defer lambda desugaring to type checker. catch multiply defined vars in pats errors, catch and report obvious tuple usage errors early to produce better error messages
+John Meacham <john@repetae.net>**20140610052915
+ Ignore-this: c4c5ef5012fd0878ff8dbca366fb1a51
+] 
+hash: 0000012404-3590e1609bec9ce666c921f8b120b89bf65e1a85682d6a934fc79426e645952e
+[add exit code table
+John Meacham <john@repetae.net>**20140610054301
+ Ignore-this: dbdc592b8b17bf02593c98599907d26b
+] 
+hash: 0000000599-18ff990f50d104f2fbcc9fe9bd1d068ece7a45aac99db5c8ef3477381dc59fa8
+[make exit code indicate failure mode
+John Meacham <john@repetae.net>**20140610062952
+ Ignore-this: 5460d87645792c5cc418cf099cfa8814
+] 
+hash: 0000006103-1a9a78032a8af60fd73fc8821a8c0c6b7dc9784eb0d9c3d6eec48bad4b80d61b
+[add more error checks
+John Meacham <john@repetae.net>**20140610070448
+ Ignore-this: 8be80ca6034d65395af8c08b4acf271d
+] 
+hash: 0000006625-c7ae94fbeca08c6cdd99ea4244df0a2e104b2b71e1f7b40c2af18fb2cb647c3c
+[improve list comprehension desugaring to remove more intermediate lists
+John Meacham <john@repetae.net>**20140610092715
+ Ignore-this: 55d64220e5d8ea91b24c86870f32de3b
+] 
+hash: 0000007275-c3bb7e1f74d2d6c40a2158b760db40116872cff6dde1931fd694b6b10d423abe
+[rearrange list lib routines, make 'undefined' print location.
+John Meacham <john@repetae.net>**20140610123325
+ Ignore-this: 5ad5a83298708eb291cf32b65a5edc98
+] 
+hash: 0000006387-514dfb3ae8c509e250fc633aa7c0ab5ea41c6fb038561c47c2e23fcdb1ceee7f
+[support subnames
+John Meacham <john@repetae.net>**20140610150225
+ Ignore-this: 920c7729e7ff5fd32d2a89116e9a1a98
+] 
+hash: 0000006644-7e9ced11d5cd554cf2d0d564dcbca23e9a182158a9f877837e4c381f12486118
+[add new layout code
+John Meacham <john@repetae.net>**20140611005819
+ Ignore-this: 23dde151939b5b43649c267addf8cfd9
+] 
+hash: 0000022494-41aec985c458d9a3750b4c31c892d3f8d0e50f10ba3b4b15209e990982de0682
+[remove old layout code, add wl-pprint as external library. 
+John Meacham <john@repetae.net>**20140611035444
+ Ignore-this: 5154ec19399928432b9e13eb8cf42109
+] 
+hash: 0000022470-be72fbd1d1eca68f313f58c9b8fefed03066edddd30da78866f184c0c23e7348
+[don't shift by one bit in atom and make a defined empty atom that is always zero
+John Meacham <john@repetae.net>**20140611041522
+ Ignore-this: e46a5fe7f0300fdabdd6192e0fa98200
+] 
+hash: 0000005458-a927b263f8c5c571c12a7024cadfe89ee58dc599ac8c20a62f75158caf428b9f
+[squish atoms to 23 bits instead of 31, allowing tagging.
+John Meacham <john@repetae.net>**20140611052201
+ Ignore-this: 6c985025069535edb561bde596eb0d4
+] 
+hash: 0000005823-39024eb25a841d5914ff8f591b22c18759ef8278f96b969b45ef70308311286c
+[cache NameType inside of name number
+John Meacham <john@repetae.net>**20140611192901
+ Ignore-this: d2fb7eea0bcec0d6d7600f8a4fa93c53
+] 
+hash: 0000009557-11654a8922a802f1104a4d6dcc982fd8958d9f475ee4b68773922871bd49324d
+[fix HsAsst creation so it always gets the right nametypes
+John Meacham <john@repetae.net>**20140611224602
+ Ignore-this: c3eb494c39d4e6939dcda4b251a65a55
+] 
+hash: 0000005845-57b59e456b137560dd7c17462d18748674a4a94aafb4a65eea017ad45b976c65
+[ensure lexing halts on error
+John Meacham <john@repetae.net>**20140611224608
+ Ignore-this: cf20967797fd500f20b63993b754b9f1
+] 
+hash: 0000002094-40405bccf84e599b8f628718d4f2aaa2c6fffe1767c9887a9c72152f5b26b961
+[add LibraryDepsUnused field to dependencies to show libraries that were included but no code ended up being used from.
+John Meacham <john@repetae.net>**20140612084056
+ Ignore-this: 84e8df17ccf139b9a355460915a4efee
+] 
+hash: 0000007506-a3a856aee9b61fd9cca7e4e1f64dc68fa68817bb343bb69f56ad8a688b2339b0
+[clean up some name code, remove dependency on 'syb'
+John Meacham <john@repetae.net>**20140612091514
+ Ignore-this: ac189a023514aa159a6b50a71b2405f2
+] 
+hash: 0000007069-589e1a3775a9ed30f676149e883d048d1b593fb45da72e19f59846b56a3cafb2
+[add code to query gcc compiler for features
+John Meacham <john@repetae.net>**20140613002101
+ Ignore-this: 20eafef82fbd26f482e1f6c3553beb7
+] 
+hash: 0000006294-f47c0239a5c870d662eb1c8148f1e97c3aabc1877aa48c7469f62fa23d824b76
+[fix cleaning up of temporary files
+John Meacham <john@repetae.net>**20140613002116
+ Ignore-this: 6396415403b046637c72f2b35c2c3099
+] 
+hash: 0000002372-c0ef60880656f332d5beff3884351d52049dfcb6ed4f4e00f8957463df8f262c
+[switch Info to use a map now that TypeRep has an Ord instance
+John Meacham <john@repetae.net>**20140613022444
+ Ignore-this: 3fca57d382c13f07dabd69d9b21529ca
+] 
+hash: 0000004039-bae13ab9caca2e918de9f975517bd9d841d6371fe64aa9b600162a382b0cd4ab
+[optimize Info layout by inlining properties.
+John Meacham <john@repetae.net>**20140613030341
+ Ignore-this: 4ac6f897a4a326f4a2b592fea3b7c0fb
+] 
+hash: 0000007952-d8b48a6e5f799a612e59a35d1875452a082d08799f5944cb64046ccc79f7c60a
+[make things look pretty by aligning them
+John Meacham <john@repetae.net>**20140613042848
+ Ignore-this: 1f51dce04af2df7c57d903514f87a369
+] 
+hash: 0000022327-a6ac785833b5cc2fe2d9c3be3e30011293ea49c0956d35adb84d121efa7b8959
+[fix shiftr
+John Meacham <john@repetae.net>**20140713191247
+ Ignore-this: e812e0175f2c83d9a2b23d760d58ef58
+] 
+hash: 0000000947-64fbc6117f95ed1f2042cf537efea18bd31978ea0675c26f743009f85faed85b
